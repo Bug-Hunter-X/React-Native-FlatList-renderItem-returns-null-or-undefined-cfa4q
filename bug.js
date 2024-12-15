@@ -1,0 +1,1 @@
+This error occurs when using the `FlatList` component in React Native and providing a renderItem function that doesn't return a valid React element.  For example, if your renderItem function has a conditional rendering where one branch doesn't return anything, or returns null, undefined or an invalid element type.
